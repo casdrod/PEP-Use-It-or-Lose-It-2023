@@ -102,9 +102,10 @@ header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
             i {font-size: 20px; color: #fff;
             &:before {padding: 7px; width: 35px; height: 35px; background-color: $primary; border-radius: 50%; display: flex !important; justify-content: center; align-items: center;}
             }
-            &.btn {padding: 5px 20px; border-radius: 40px; color: #fff;font-size: 24px;font-family: $font;
+            &.btn {padding: 10px 26px 10px 54px; position: relative;border-radius: 40px; color: #fff;font-size: 24px;font-family: $font;
                 &:hover {background-color: $secondary;}
-                i { color: $primary;
+                i { color: $primary;position: absolute;
+                    left: 6px;
                     &:before {background-color: #fff;}
                 }
             }
@@ -240,7 +241,7 @@ p {
             .smalltext { margin-top: 30px; color: $text; font-size: 20px; font-weight: 700; font-style: normal; letter-spacing: normal; line-height: 1; }
         }
     }
-    .use-it-very-bottom-text .big {color: #fff !important; max-width: 54%;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
+    .use-it-very-bottom-text .big {color: #fff !important; max-width: 1100px;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
 }
 
 footer :is(input, textarea) {background-color: #f0f0f0 !important;}
@@ -375,7 +376,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     header #nav .phone {display:none;}
     #banner {max-height: none;
         article {padding: 50px 20px;
-            h1 {font-size: 85px;}
+            h1 {font-size: 74px;}
             p {font-size: 28px;;}
         }
         article, figure {flex: auto;max-height: none;}
@@ -397,9 +398,10 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
             }
         }
     }
-    #nav {justify-content: space-around;}
-    #nav .logo{margin:0}
+    #nav {justify-content: space-around;padding: 0;}
+    header #nav .logo{margin:0}
     #nav .header-buttons{margin:0;order:0;flex:0 1 220px}
+    .simple .btn {margin-top: 15px;}
     header #nav a.btn {display:none;}
     .phone{font-size:30px;margin:0}
     hr{display:block;max-width:95%}
@@ -420,7 +422,6 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 
 @media (max-width: 890px) {
     #nav .header-buttons .btn,#nav .header-buttons .btn-alt{width:180px}
-    #nav .logo{max-width:350px}
 }
 @media (max-width: 768px) {
     .factors {
@@ -464,7 +465,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 
 @media (max-width: 590px) {
     #nav {justify-content: center;}
-    #nav .logo img {max-width: 300px;margin: 0 auto 15px;}
+    #nav .logo img {max-width: 300px;margin: 0 auto;}
     h2{margin-top:20px;font-size:50px;}
     .factors h2 {font-size: 42px;}
     #services-custom{padding:0}
@@ -486,7 +487,6 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 @media (max-width: 500px) {
     .use-it-top-image div figcaption {font-size: 14px;}
     .double-list .flex-ed .option-list .list-body ul li {margin: 10px auto; font-size: 20px; padding-left: 30px;}
-    #nav {gap: 10px;}
 }
 
 @media (max-width: 430px) {
