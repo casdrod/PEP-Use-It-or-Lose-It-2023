@@ -30,10 +30,11 @@
 }
 
 
-$primary: #F9A528;
-$secondary:#012B48;
-$font: 'Barlow', sans-serif;
-$font2: 'Alegreya', serif;
+$primary: #C99336;
+$secondary:#0047AB;
+$tertiary: #012B48;
+$font: "poppins", sans-serif;
+$font2: "trajan-pro-3", serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
@@ -97,25 +98,31 @@ main ul{list-style:none;padding:0;margin:10px auto;text-align:left;display:table
 }
 
 header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
-    #nav {
-        a {
-            i {font-size: 20px; color: #fff;
+    #nav {display:flex;max-width:1300px;justify-content:space-between;margin:auto;align-items:center;padding:2px;position:relative;
+        a {color: $text;text-align:left;
+            i {font-size: 20px; color: #000;
             &:before {padding: 7px; width: 35px; height: 35px; background-color: $primary; border-radius: 50%; display: flex !important; justify-content: center; align-items: center;}
             }
-            &.btn {padding: 10px 26px 10px 54px; position: relative;border-radius: 40px; color: #fff;font-size: 24px;font-family: $font;
-                &:hover {background-color: $secondary;}
-                i { color: $primary;position: absolute;
-                    left: 6px;
+            &.btn {padding: 13px 26px 8px 54px; position: relative;border-radius: 40px; color: #000;font-size: 21px;font-family: $font;
+                &:hover {background-color: $secondary;color: #fff;}
+                i { color: $primary;position: absolute;left: 3px;top: 5px;
                     &:before {background-color: #fff;}
                 }
+            }
+        }
+        .spacer {flex-basis: 25%;}
+        .header-buttons{margin:0;padding:7px 10px;font-size:14px;letter-spacing:normal;
+            .btn,.btn-alt{font-size:12px;letter-spacing:1.2px;border:none;width:200px;margin:2px;padding:10px; min-width: 160px;text-transform: uppercase; border-radius: 15px;
+                span{font-size:25px;letter-spacing:normal}
             }
         }
         .logo{margin:0;}
         address{text-align:center;}
         .phone{color: #000; font-size: 32px;
             &:hover{color:$primary;}
+            i {margin-top: -6px;}
         }
-        .phy{font-size:22px;color:#000;line-height:1.26;font-weight:400;letter-spacing:.47px;
+        .phy{font-size:20px;color:#000;line-height:1.26;font-weight:400;letter-spacing:.47px;
             &:hover{color:$primary;}
         }
         > * { display: flex; align-items: center; gap: 10px; }
@@ -157,16 +164,6 @@ header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
     &:hover{color:$secondary}
     span {display: block; color: $text; font-size: 18px;}
 }
-
-#nav{display:flex;max-width:1400px;justify-content:space-between;margin:auto;align-items:center;padding:2px;position:relative;
-    a {color: $text;text-align:left;}
-    .spacer {flex-basis: 25%;}
-    .header-buttons{margin:0;padding:7px 10px;font-size:14px;letter-spacing:normal;
-        .btn,.btn-alt{font-size:12px;letter-spacing:1.2px;border:none;width:200px;margin:2px;padding:10px; min-width: 160px;text-transform: uppercase; border-radius: 15px;
-            span{font-size:25px;letter-spacing:normal}
-        }
-    }
-}
 .fix-nav header{filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));position:fixed;width:100%;left:0;top:0;right:0;animation-duration:.8s;animation-fill-mode:both;animation-name:slideIn;z-index:100000;box-shadow:0 3px 7px rgba(0,0,0,0.35);
     .logo {max-height: 120px; margin-bottom: 0; img {max-height: 120px; margin-bottom: 0;}}
 }
@@ -178,12 +175,12 @@ p {
 
 
 /*Use it or Lose it Page*/
-#banner {display: flex;flex-wrap: wrap;background-color: $secondary;max-height: 900px;overflow:hidden;border-bottom: 10px solid $primary;
+#banner {display: flex;flex-wrap: wrap;background-color: $tertiary;;max-height: 900px;overflow:hidden;border-bottom: 10px solid $primary;
     > * {flex: 0 1 50%;max-height: 900px;}
-    figure {
+    figure {flex: 0 1 45%;
         img {width: 100%;}
     }
-    article {padding: 50px;
+    article {padding: 50px;flex: 0 1 55%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -192,10 +189,13 @@ p {
         h1 {color: #fff; font: 200 125px/1 $font2;text-transform:uppercase;
             span {color: $primary;}
         }
-        h2 {font-size: 45px; color: #fff;font-family: $font;font-weight:600}
-        p {color: #fff;font-size: 31px;line-height: 32px;font-family: $font;}
+        h2 {font-size: 41px; color: #fff;font-family: $font;font-weight:500}
+        p {color: #fff;font-size: 30px;
+            line-height: 35px;font-family: $font;}
     }
 }
+
+.bg-2 {background-color: $secondary;}
 
 .smile {background-color: #00538E;
     h1 {color: #fff; font: 200 125px/1 $font2;text-transform:uppercase;
@@ -205,14 +205,18 @@ p {
     article p { &.big{font-weight: normal; font-size: 26px; text-align: center; color: #1a1a1a;}}
     .content{ max-width: 1300px; margin: auto; background-color: #f0f0f0; 
         .call{padding: 40px 10px; display: flex; align-items: center; justify-content: space-around; background-color: #fff;
-            article {flex: 0 1 815px;
-                p{font-weight: 400; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left; letter-spacing: -.02em;line-height: 60px;}
+            article {flex: 0 1 60%;
+                p{font-weight: 500; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left; letter-spacing: -.02em;line-height: 60px;}
                 a{color: $primary;
                     &:hover {color: $text;}
                 }
             }
-            figure{flex: 0 0 400px; position: relative;
-                figcaption { background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 5px 15px; font-weight: 600; font-size: 18px;letter-spacing: 1.5px;width: 100%;}
+            figure{flex: 0 0 40%; position: relative;
+                figcaption { background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 5px 15px 2px; font-weight: 600; font-size: 18px;letter-spacing: 1.5px;width: 100%;
+                    a {padding-top: 5px;color: #000;
+                        &:hover {color: $primary;}
+                    }
+                }
             }
         }
     }
@@ -241,7 +245,7 @@ p {
             .smalltext { margin-top: 30px; color: $text; font-size: 20px; font-weight: 700; font-style: normal; letter-spacing: normal; line-height: 1; }
         }
     }
-    .use-it-very-bottom-text .big {color: #fff !important; max-width: 1100px;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
+    .use-it-very-bottom-text .big {color: #fff !important; max-width: 1100px;margin: auto;margin-top: 70px;font-size: 36px;font-weight: 400;font-family: $font;line-height: 45px;}
 }
 
 footer :is(input, textarea) {background-color: #f0f0f0 !important;}
@@ -254,16 +258,17 @@ footer :is(input, textarea) {background-color: #f0f0f0 !important;}
 }
 
 /* ------------- Footer -------------- */
-footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #fff;
+footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
     h2{font:500 45px/1.2 $font!important; color: $text;text-align:center;margin:0 auto 20px; position: relative;
         &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 10px auto;
-        &:hover {color: $primary;}
+        .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 10px auto;
+            &:hover {color: $primary;}
+        }
+        .phone {font-size: 41px;font-weight: 700;}
+        form{padding: 0 !important;}
     }
-    .phone {font-size: 41px;}
-    form{padding: 0 !important;}}
     .form {background: none !important;
         .simple {
             input, textarea {text-align:center;width: 80%;}
@@ -304,11 +309,11 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 
 /* ------------- Copy -------------- */
-.copy {margin-top:20px;padding:30px 10px 50px; background-color:#fff;margin:auto; font:400 16px/1.4 $font; color:#1a1a1a;; 
+.copy {margin-top:20px;padding:30px 10px 50px;margin:auto; font:400 16px/1.4 $font; color:$text; 
    a, p {font:400 16px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
    a {color: $primary;}
     p {margin: 20px auto; max-width: 1090px;}
-    a:hover{color:$secondary;text-decoration:underline}
+    a:hover{color:$secondary;}
     span {margin: 0 2px;}
 
 }
@@ -317,8 +322,8 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 
 .simple{margin:0 0 5px;
-    .btn{width:260px;font-size:16px;font-weight:700;padding:15px 10px;border:1px solid $primary;background-color:$primary;color:#fff;text-transform:uppercase;
-        &:hover{background-color:#006caa;color:#fff}
+    .btn{width:260px;font-size:16px;font-weight:700;padding:15px 10px;border:1px solid $primary;background-color:$primary;color:#000;text-transform:uppercase;
+        &:hover{background-color:$secondary;color:#fff}
     }
     input,select{height:35px}
     textarea{height:80px;padding-top:8px}
@@ -382,15 +387,16 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
         article, figure {flex: auto;max-height: none;}
     }
     .smile {
-        #main-form {padding: 80px 20px;
+        #main-form {padding: 80px 20px 30px;
             form > div {
                 &:nth-of-type(2) {margin: 30px auto;}
             }
         }
         .use-it-very-bottom-text {
-            .big {max-width: none;}
+            .big {max-width: none;line-height: 1.1;}
         }
     }
+    footer article .phy {font-size: 20px;}
     #banner-counter {
         #countdown {
             #count {flex-wrap:wrap;
@@ -399,7 +405,10 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
         }
     }
     #nav {justify-content: space-around;padding: 0;}
-    header #nav .logo{margin:0}
+    header #nav {
+        padding: 0;
+        .logo{margin:10px auto}
+    }
     #nav .header-buttons{margin:0;order:0;flex:0 1 220px}
     .simple .btn {margin-top: 15px;}
     header #nav a.btn {display:none;}
@@ -430,7 +439,9 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
         }
         [class*="row"] p {margin-bottom: 0;}
     }
-    footer .split article {flex: 100%;padding: 20px 0;}
+    footer .split article {flex: 100%;padding: 20px 0;
+        img {max-width: 290px;}
+    }
 }
 @media (max-width: 740px) {
     footer h2:first-of-type {margin-bottom: 40px;}
@@ -461,6 +472,9 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .smile .use-banner article {margin-top: 10px; margin-bottom: 20px;}
     .bg-1 {padding: 10px}
     .mobile-bg h1 {font-size: 50px; margin: 25px auto;}
+    .smile .content .call figure figcaption {font-size: 11px;padding: 0;
+        a {padding-top: 5px;}
+    }
 }
 
 @media (max-width: 590px) {
@@ -469,7 +483,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     h2{margin-top:20px;font-size:50px;}
     .factors h2 {font-size: 42px;}
     #services-custom{padding:0}
-    .smile .content .call article p {font-size: 40px;}
+    .smile .content .call article p {font-size: 36px;}
     .upper-form form{flex-direction:column}
     main ul li,.services ul li{text-align:center}
     .services ul{max-width:270px;margin:0 auto}

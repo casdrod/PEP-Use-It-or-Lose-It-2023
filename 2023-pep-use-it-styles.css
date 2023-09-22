@@ -609,16 +609,16 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #F9A528;
+  background-color: #C99336;
 }
 
 #fixed-tabs .call {
-  background-color: #012B48;
+  background-color: #0047AB;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #F9A528;
+  background-color: #C99336;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {
@@ -652,12 +652,12 @@ body {
   background: #F8F8F8;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Barlow", sans-serif;
+  font: 400 18px/26px "poppins", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Barlow", sans-serif;
+  font: 400 18px/1.6 "poppins", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -665,22 +665,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #012B48;
+  color: #0047AB;
 }
 
 a:hover {
-  color: #012B48;
+  color: #0047AB;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Barlow", sans-serif;
+  font-family: "poppins", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #012B48;
-  font: 400 50px/1.3 "Alegreya", serif;
+  color: #0047AB;
+  font: 400 50px/1.3 "trajan-pro-3", serif;
   letter-spacing: 1.1px;
 }
 
@@ -690,26 +690,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "Alegreya", serif;
-  color: #012B48;
+  font: normal 142px/1.1 "trajan-pro-3", serif;
+  color: #0047AB;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Alegreya", serif;
+  font-family: "trajan-pro-3", serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Alegreya", serif;
+  font-family: "trajan-pro-3", serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Alegreya", serif;
-  color: #012B48;
+  font: 700 30px/1 "trajan-pro-3", serif;
+  color: #0047AB;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -753,7 +753,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Barlow", sans-serif, sans-serif;
+  font: 700 15px/1 "poppins", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -778,15 +778,15 @@ main ul li:before {
 .play i:before {
   margin: auto;
   padding-left: 5px;
-  color: #F9A528;
+  color: #C99336;
 }
 
 .play:hover {
-  color: #012B48;
+  color: #0047AB;
 }
 
 .play:hover i {
-  background-color: #012B48;
+  background-color: #0047AB;
   color: #fff;
 }
 
@@ -794,7 +794,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #F9A528;
+  background-color: #C99336;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -813,7 +813,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #e88d06;
+  background-color: #a1762b;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -832,9 +832,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #F9A528;
+  background-color: #C99336;
   min-width: 250px;
-  font: 700 13px/1.1 "Barlow", sans-serif;
+  font: 700 13px/1.1 "poppins", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -855,38 +855,77 @@ header {
   z-index: 100;
   background-color: #fff;
 }
+header #nav {
+  display: flex;
+  max-width: 1300px;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  padding: 2px;
+  position: relative;
+}
+header #nav a {
+  color: #000;
+  text-align: left;
+}
 header #nav a i {
   font-size: 20px;
-  color: #fff;
+  color: #000;
 }
 header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #F9A528;
+  background-color: #C99336;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
   align-items: center;
 }
 header #nav a.btn {
-  padding: 10px 26px 10px 54px;
+  padding: 13px 26px 8px 54px;
   position: relative;
   border-radius: 40px;
-  color: #fff;
-  font-size: 24px;
-  font-family: "Barlow", sans-serif;
+  color: #000;
+  font-size: 21px;
+  font-family: "poppins", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #012B48;
+  background-color: #0047AB;
+  color: #fff;
 }
 header #nav a.btn i {
-  color: #F9A528;
+  color: #C99336;
   position: absolute;
-  left: 6px;
+  left: 3px;
+  top: 5px;
 }
 header #nav a.btn i:before {
   background-color: #fff;
+}
+header #nav .spacer {
+  flex-basis: 25%;
+}
+header #nav .header-buttons {
+  margin: 0;
+  padding: 7px 10px;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+header #nav .header-buttons .btn, header #nav .header-buttons .btn-alt {
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  border: none;
+  width: 200px;
+  margin: 2px;
+  padding: 10px;
+  min-width: 160px;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+header #nav .header-buttons .btn span, header #nav .header-buttons .btn-alt span {
+  font-size: 25px;
+  letter-spacing: normal;
 }
 header #nav .logo {
   margin: 0;
@@ -899,17 +938,20 @@ header #nav .phone {
   font-size: 32px;
 }
 header #nav .phone:hover {
-  color: #F9A528;
+  color: #C99336;
+}
+header #nav .phone i {
+  margin-top: -6px;
 }
 header #nav .phy {
-  font-size: 22px;
+  font-size: 20px;
   color: #000;
   line-height: 1.26;
   font-weight: 400;
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #F9A528;
+  color: #C99336;
 }
 header #nav > * {
   display: flex;
@@ -953,7 +995,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   text-align: center;
 }
 header #nav #mobile-btns .phone {
-  background-color: #F9A528;
+  background-color: #C99336;
   font-size: 20px;
   line-height: 1.3;
 }
@@ -965,56 +1007,18 @@ header #nav #mobile-btns .phone span {
 }
 
 .phone {
-  color: #F9A528;
-  font: 700 30px/30px "Barlow", sans-serif;
+  color: #C99336;
+  font: 700 30px/30px "poppins", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #012B48;
+  color: #0047AB;
 }
 .phone span {
   display: block;
   color: #000;
   font-size: 18px;
-}
-
-#nav {
-  display: flex;
-  max-width: 1400px;
-  justify-content: space-between;
-  margin: auto;
-  align-items: center;
-  padding: 2px;
-  position: relative;
-}
-#nav a {
-  color: #000;
-  text-align: left;
-}
-#nav .spacer {
-  flex-basis: 25%;
-}
-#nav .header-buttons {
-  margin: 0;
-  padding: 7px 10px;
-  font-size: 14px;
-  letter-spacing: normal;
-}
-#nav .header-buttons .btn, #nav .header-buttons .btn-alt {
-  font-size: 12px;
-  letter-spacing: 1.2px;
-  border: none;
-  width: 200px;
-  margin: 2px;
-  padding: 10px;
-  min-width: 160px;
-  text-transform: uppercase;
-  border-radius: 15px;
-}
-#nav .header-buttons .btn span, #nav .header-buttons .btn-alt span {
-  font-size: 25px;
-  letter-spacing: normal;
 }
 
 .fix-nav header {
@@ -1054,17 +1058,21 @@ p.big {
   background-color: #012B48;
   max-height: 900px;
   overflow: hidden;
-  border-bottom: 10px solid #F9A528;
+  border-bottom: 10px solid #C99336;
 }
 #banner > * {
   flex: 0 1 50%;
   max-height: 900px;
+}
+#banner figure {
+  flex: 0 1 45%;
 }
 #banner figure img {
   width: 100%;
 }
 #banner article {
   padding: 50px;
+  flex: 0 1 55%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1073,23 +1081,27 @@ p.big {
 }
 #banner article h1 {
   color: #fff;
-  font: 200 125px/1 "Alegreya", serif;
+  font: 200 125px/1 "trajan-pro-3", serif;
   text-transform: uppercase;
 }
 #banner article h1 span {
-  color: #F9A528;
+  color: #C99336;
 }
 #banner article h2 {
-  font-size: 45px;
+  font-size: 41px;
   color: #fff;
-  font-family: "Barlow", sans-serif;
-  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
 }
 #banner article p {
   color: #fff;
-  font-size: 31px;
-  line-height: 32px;
-  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  font-family: "poppins", sans-serif;
+}
+
+.bg-2 {
+  background-color: #0047AB;
 }
 
 .smile {
@@ -1097,11 +1109,11 @@ p.big {
 }
 .smile h1 {
   color: #fff;
-  font: 200 125px/1 "Alegreya", serif;
+  font: 200 125px/1 "trajan-pro-3", serif;
   text-transform: uppercase;
 }
 .smile h1 span {
-  color: #F9A528;
+  color: #C99336;
 }
 .smile #main-form {
   padding: 80px 0;
@@ -1125,26 +1137,26 @@ p.big {
   background-color: #fff;
 }
 .smile .content .call article {
-  flex: 0 1 815px;
+  flex: 0 1 60%;
 }
 .smile .content .call article p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Barlow", sans-serif;
+  font-family: "poppins", sans-serif;
   text-align: left;
   letter-spacing: -0.02em;
   line-height: 60px;
 }
 .smile .content .call article a {
-  color: #F9A528;
+  color: #C99336;
 }
 .smile .content .call article a:hover {
   color: #000;
 }
 .smile .content .call figure {
-  flex: 0 0 400px;
+  flex: 0 0 40%;
   position: relative;
 }
 .smile .content .call figure figcaption {
@@ -1152,11 +1164,18 @@ p.big {
   bottom: 0;
   position: absolute;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 5px 15px 2px;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.5px;
   width: 100%;
+}
+.smile .content .call figure figcaption a {
+  padding-top: 5px;
+  color: #000;
+}
+.smile .content .call figure figcaption a:hover {
+  color: #C99336;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1246,7 +1265,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #F9A528;
+  color: #C99336;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1266,10 +1285,11 @@ p.big {
   color: #fff !important;
   max-width: 1100px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 36px;
   font-weight: 400;
-  font-family: "Barlow", sans-serif;
+  font-family: "poppins", sans-serif;
+  line-height: 45px;
 }
 
 footer :is(input, textarea) {
@@ -1309,11 +1329,10 @@ footer :is(input, textarea) {
 footer {
   overflow: hidden;
   padding: 40px 0 0;
-  background-color: #000;
-  background: #fff;
+  background-color: #fff;
 }
 footer h2 {
-  font: 500 45px/1.2 "Barlow", sans-serif !important;
+  font: 500 45px/1.2 "poppins", sans-serif !important;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1321,7 +1340,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #012B48;
+  background-color: #0047AB;
   position: absolute;
   height: 5px;
   width: 85px;
@@ -1330,17 +1349,18 @@ footer h2:after {
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "Barlow", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #000;
   margin: 10px auto;
 }
 footer article .phy:hover {
-  color: #F9A528;
+  color: #C99336;
 }
 footer article .phone {
   font-size: 41px;
+  font-weight: 700;
 }
 footer article form {
   padding: 0 !important;
@@ -1375,7 +1395,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Barlow", sans-serif;
+  font: 400 32px/1.2 "poppins", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1384,7 +1404,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #F9A528;
+  color: #C99336;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1425,13 +1445,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Alegreya", serif;
+  font-family: "trajan-pro-3", serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Barlow", sans-serif;
+  font: 400 18px/1 "poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1440,7 +1460,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Barlow", sans-serif;
+  font-family: "poppins", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1452,10 +1472,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #F9A528;
+  color: #C99336;
 }
 figcaption:hover p {
-  color: #F9A528;
+  color: #C99336;
 }
 
 .stamp {
@@ -1469,26 +1489,24 @@ figcaption:hover p {
 .copy {
   margin-top: 20px;
   padding: 30px 10px 50px;
-  background-color: #fff;
   margin: auto;
-  font: 400 16px/1.4 "Barlow", sans-serif;
-  color: #1a1a1a;
+  font: 400 16px/1.4 "poppins", sans-serif;
+  color: #000;
 }
 .copy a, .copy p {
-  font: 400 16px/1.4 "Barlow", sans-serif;
+  font: 400 16px/1.4 "poppins", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #F9A528;
+  color: #C99336;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #012B48;
-  text-decoration: underline;
+  color: #0047AB;
 }
 .copy span {
   margin: 0 2px;
@@ -1502,13 +1520,13 @@ figcaption:hover p {
   font-size: 16px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #F9A528;
-  background-color: #F9A528;
-  color: #fff;
+  border: 1px solid #C99336;
+  background-color: #C99336;
+  color: #000;
   text-transform: uppercase;
 }
 .simple .btn:hover {
-  background-color: #006caa;
+  background-color: #0047AB;
   color: #fff;
 }
 .simple input, .simple select {
@@ -1530,7 +1548,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #F9A528;
+  box-shadow: inset 0 -3px 0 #C99336;
 }
 
 hr {
@@ -1583,7 +1601,7 @@ hr {
 #countdown #count span {
   line-height: 1.5;
   margin: 0;
-  color: #F9A528;
+  color: #C99336;
   padding-bottom: 10px;
   width: 100%;
   padding: 20px 0 30px;
@@ -1699,13 +1717,17 @@ hr {
     max-height: none;
   }
   .smile #main-form {
-    padding: 80px 20px;
+    padding: 80px 20px 30px;
   }
   .smile #main-form form > div:nth-of-type(2) {
     margin: 30px auto;
   }
   .smile .use-it-very-bottom-text .big {
     max-width: none;
+    line-height: 1.1;
+  }
+  footer article .phy {
+    font-size: 20px;
   }
   #banner-counter #countdown #count {
     flex-wrap: wrap;
@@ -1719,8 +1741,11 @@ hr {
     justify-content: space-around;
     padding: 0;
   }
+  header #nav {
+    padding: 0;
+  }
   header #nav .logo {
-    margin: 0;
+    margin: 10px auto;
   }
   #nav .header-buttons {
     margin: 0;
@@ -1804,6 +1829,9 @@ hr {
   footer .split article {
     flex: 100%;
     padding: 20px 0;
+  }
+  footer .split article img {
+    max-width: 290px;
   }
 }
 @media (max-width: 740px) {
@@ -1905,6 +1933,13 @@ hr {
     font-size: 50px;
     margin: 25px auto;
   }
+  .smile .content .call figure figcaption {
+    font-size: 11px;
+    padding: 0;
+  }
+  .smile .content .call figure figcaption a {
+    padding-top: 5px;
+  }
 }
 @media (max-width: 590px) {
   #nav {
@@ -1925,7 +1960,7 @@ hr {
     padding: 0;
   }
   .smile .content .call article p {
-    font-size: 40px;
+    font-size: 36px;
   }
   .upper-form form {
     flex-direction: column;
