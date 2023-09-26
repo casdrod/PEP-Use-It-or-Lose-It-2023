@@ -1240,6 +1240,7 @@ p.big {
 }
 .smile .form .simple .btn {
   width: 100%;
+  margin-top: 10px;
 }
 .smile .form ::-webkit-input-placeholder {
   color: #000;
@@ -1542,7 +1543,7 @@ figcaption:hover p {
   padding: 15px 10px;
   border: 1px solid #6BA746;
   background-color: #6BA746;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
 }
 .simple .btn:hover {

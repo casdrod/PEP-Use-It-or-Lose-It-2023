@@ -242,7 +242,7 @@ p {
         input[type=checkbox]{height: 30px; width: 30px; display: inline-block; vertical-align: middle;}
         input[type=checkbox] + label{font-size: 20px; color: $text; margin-left: 5px;}
         .big-label{display: block; font-size: 20px; font-weight: 700; color: $text;text-align:left;}
-        .simple .btn {width: 100%;}
+        .simple .btn {width: 100%;margin-top: 10px;}
         ::-webkit-input-placeholder { color: $text; }
         :-moz-placeholder { color: $text; }
         ::-moz-placeholder { color: $text; }
@@ -337,7 +337,7 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 
 .simple{margin:0 0 5px;
-    .btn{width:260px;font-size:16px;font-weight:700;padding:15px 10px;border:1px solid $primary;background-color:$primary;color:#000;text-transform:uppercase;
+    .btn{width:260px;font-size:16px;font-weight:700;padding:15px 10px;border:1px solid $primary;background-color:$primary;color:#fff;text-transform:uppercase;
         &:hover{background-color:$secondary;color:#fff}
     }
     input,select{height:35px}
