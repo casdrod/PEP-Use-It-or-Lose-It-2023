@@ -5,16 +5,6 @@
 [class*=row] {flex-flow: row wrap;}
 
 
-@font-face {
-    font-family: Geomanist;
-    src: url(Geomanist-Regular.ttf);
-}
-@font-face {
-    font-family: Geomanist;
-    src: url(Geomanist-Medium.ttf);
-    font-weight: 500;
-}
-
 /*========= 4. Youtube LazyLoad ==========*/
 [data-player],[data-vimeo],[data-embed]{position:relative}
 [data-player] .play,[data-embed] .close,[data-vimeo] .close{color:#fff;padding:11px;text-transform:uppercase}
@@ -41,11 +31,11 @@
 }
 
 
-$primary: #6BA746;
-$secondary:#404345;
-$tertiary: #482984;
-$font: Geomanist, serif;
-$font2: Geomanist, serif;
+$primary: #50B948;
+$secondary:#024974;
+$tertiary: #012B48;
+$font: 'Open Sans', sans-serif;
+$font2: 'Alegreya', serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
@@ -129,11 +119,11 @@ header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
         }
         .logo{margin:0;}
         address{text-align:center;}
-        .phone{color: #000; font-size: 32px;font-weight: 500;
+        .phone{color: #000; font-size: 32px;font-weight: 700;
             &:hover{color:$primary;}
-            i {margin-top: -6px;}
+            i {margin-top: 4px;}
         }
-        .phy{font-size:20px;color:#000;line-height:1.26;font-weight:400;letter-spacing:.47px;
+        .phy{font-size:22px;color:#000;line-height:1.26;font-weight:400;letter-spacing:.47px;
             &:hover{color:$primary;}
         }
         > * { display: flex; align-items: center; gap: 10px; }
@@ -146,10 +136,11 @@ header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
 				padding: 10px;
 				justify-content: center;
 				border-radius: 0;
-				font-size: 16px;
+				font-size: 14px;
 				min-width: auto;
                 background: #EAEEF2;
 				text-transform: uppercase;
+                text-align: center;
 				span {
 					width: 100%;font-size: 28px;
 				  }
@@ -270,11 +261,11 @@ footer :is(input, textarea) {background-color: #f0f0f0 !important;}
 
 /* ------------- Footer -------------- */
 footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
-    h2{font:400 45px/1.2 $font!important; color: $text;text-align:center;margin:0 auto 20px; position: relative;
+    h2{font:500 45px/1.2 $font!important; color: $text;text-align:center;margin:0 auto 20px; position: relative;
         &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-        .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 10px auto;
+        .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 15px auto;
             &:hover {color: $primary;}
         }
         .phone {font-size: 41px;font-weight: 700;color: $tertiary;
@@ -326,9 +317,9 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 /* ------------- Copy -------------- */
 .copy {margin-top:20px;padding:30px 10px 50px;margin:auto; font:400 18px/1.4 $font; color:$text; 
    a, p {font:400 18px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
-   a {color: $tertiary;}
+   a {color: $primary;}
     p {margin: 20px auto; max-width: 1090px;}
-    a:hover{color:$primary;}
+    a:hover{color:$tertiary;}
     span {margin: 0 2px;}
 
 }
@@ -522,7 +513,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .split article .btn{margin-bottom:20px;min-width:auto}
     #team figure{display:table}
     #services h3{margin-top:10px}
-    .copy{padding-bottom:20px;font-size:14px}
+    .copy{padding-bottom:20px;}
     #fixed-tabs a{font-size:14px}
     .services .flex-ed img {max-width:200px;}
     .smile .use-banner article div figcaption span {padding: 5px;}
