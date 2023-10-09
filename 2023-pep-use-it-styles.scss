@@ -31,11 +31,12 @@
 }
 
 
-$primary: #50B948;
-$secondary:#024974;
-$tertiary: #012B48;
-$font: 'Open Sans', sans-serif;
-$font2: 'Alegreya', serif;
+$primary: #E5BA43;
+$secondary:#01ADB2;
+$tertiary: #303534;
+$quaternary: #644DA7;
+$font: 'Raleway', sans-serif;
+$font2: 'Playfair Display', serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
@@ -44,7 +45,7 @@ $icon-bkg: rgba(15, 15, 76,.05);
 #fixed-tabs{position:fixed;bottom:0;right:0;width:100%;text-align:center;line-height:1;z-index:110000;display:flex}
 #fixed-tabs a{font-size:13px;color:$text;font-weight:700;text-transform:uppercase;padding:14px 0;flex: 0 1 25%}
 #fixed-tabs .map {background-color:$primary;}
-#fixed-tabs .call {background-color:$secondary;}
+#fixed-tabs .call {background-color:$quaternary;}
 #fixed-tabs .ra {flex: 0 1 50%; background-color: $primary;}
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {color: #fff;}
 @media (min-width: 1031px) {
@@ -99,13 +100,13 @@ main ul{list-style:none;padding:0;margin:10px auto;text-align:left;display:table
 }
 
 header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
-    #nav {display:flex;max-width:1300px;justify-content:space-between;margin:auto;align-items:center;padding:2px;position:relative;
+    #nav {display:flex;max-width:1300px;justify-content:space-between;margin:auto;align-items:center;padding:20px 2px;position:relative;
         a {color: $text;text-align:left;
             i {font-size: 20px; color: #000;
             &:before {padding: 7px; width: 35px; height: 35px; background-color: $primary; border-radius: 50%; display: flex !important; justify-content: center; align-items: center;}
             }
-            &.btn {padding: 10px 26px 10px 54px; position: relative;border-radius: 40px; color: #fff;font-size: 21px;font-family: $font;
-                &:hover {background-color: $tertiary;color: #fff;}
+            &.btn {padding: 10px 26px 10px 54px; position: relative;border-radius: 40px; color: #fff;font-size: 24px;font-family: $font;
+                &:hover {background-color: $secondary;color: #fff;}
                 i { color: $primary;position: absolute;left: 3px;top: 5px;
                     &:before {background-color: #fff;}
                 }
@@ -177,7 +178,7 @@ p {
 
 
 /*Use it or Lose it Page*/
-#banner {display: flex;flex-wrap: wrap;background-color: $tertiary;;max-height: 900px;overflow:hidden;border-bottom: 10px solid $primary;
+#banner {display: flex;flex-wrap: wrap;background-color: $tertiary;;max-height: 900px;overflow:hidden;border-bottom: 10px solid $quaternary;
     > * {flex: 0 1 50%;max-height: 900px;}
     figure {flex: 0 1 45%;
         img {width: 100%;}
@@ -216,7 +217,7 @@ p {
             figure{flex: 0 0 40%; position: relative;
                 figcaption { background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 5px 15px 2px; font-weight: 600; font-size: 18px;letter-spacing: 1.5px;width: 100%;
                     a {color: #000;
-                        &:hover {color: $primary;}
+                        &:hover {color: $quaternary;}
                     }
                 }
             }
@@ -265,19 +266,19 @@ footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
         &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-        .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 15px auto;
+        .phy {font-family: $font; font-weight: normal; font-size: 22px; color: $text;margin: 15px auto;
             &:hover {color: $primary;}
         }
-        .phone {font-size: 41px;font-weight: 700;color: $tertiary;
-            &:hover {color: $primary}
+        .phone {font-size: 41px;font-weight: 700;color: $primary;
+            &:hover {color: $secondary}
         }
         form{padding: 0 !important;}
     }
     .form {background: none !important;
         .simple {
             input, textarea {text-align:center;width: 80%;}
-            .btn {width: 80%!important;background-color: $tertiary;color: #fff;
-                &:hover {background-color: $primary;}
+            .btn {width: 80%!important;background-color: $primary;color: #fff;
+                &:hover {background-color: $secondary;}
             }
         }
     }
@@ -317,9 +318,9 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 /* ------------- Copy -------------- */
 .copy {margin-top:20px;padding:30px 10px 50px;margin:auto; font:400 18px/1.4 $font; color:$text; 
    a, p {font:400 18px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
-   a {color: $primary;}
+   a {color: $quaternary;}
     p {margin: 20px auto; max-width: 1090px;}
-    a:hover{color:$tertiary;}
+    a:hover{color:$primary;}
     span {margin: 0 2px;}
 
 }
@@ -349,7 +350,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 #countdown{text-align:center;color:#fff;margin-top: 30px;}
 #countdown .flex-ed{-ms-flex-flow:row nowrap;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-flow:row nowrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;max-width:1230px;margin:auto;padding:0 10px}
 #countdown #count > div {flex: 0 1 33%;margin: 0;}
-#countdown #count span {line-height: 1.5;margin: 0;color: $primary;padding-bottom: 10px;width: 100%;padding: 20px 0 30px;background-color: #fff;}
+#countdown #count span {font-weight: 500;line-height: 1.5;margin: 0;color: $primary;padding-bottom: 10px;width: 100%;padding: 20px 0 30px;background-color: #fff;}
 #countdown h4 {margin : 0;text-transform: uppercase;font-size: 18px;color: #000;;}
 #countdown h2{color:#fff;margin:0; text-align: left;}
 #countdown .btn{margin:0}
@@ -478,9 +479,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .smile .use-banner article {margin-top: 10px; margin-bottom: 20px;}
     .bg-1 {padding: 10px}
     .mobile-bg h1 {font-size: 50px; margin: 25px auto;}
-    .smile .content .call figure figcaption {font-size: 11px;padding: 0;
-        a {padding-top: 5px;}
-    }
+    .smile .content .call figure figcaption {font-size: 16px;}
 }
 
 @media (max-width: 590px) {

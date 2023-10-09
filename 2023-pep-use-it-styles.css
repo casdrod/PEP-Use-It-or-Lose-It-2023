@@ -609,16 +609,16 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #50B948;
+  background-color: #E5BA43;
 }
 
 #fixed-tabs .call {
-  background-color: #024974;
+  background-color: #644DA7;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #50B948;
+  background-color: #E5BA43;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {
@@ -652,12 +652,12 @@ body {
   background: #F8F8F8;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Open Sans", sans-serif;
+  font: 400 18px/26px "Raleway", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Open Sans", sans-serif;
+  font: 400 18px/1.6 "Raleway", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -665,22 +665,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #024974;
+  color: #01ADB2;
 }
 
 a:hover {
-  color: #024974;
+  color: #01ADB2;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #024974;
-  font: 400 50px/1.3 "Alegreya", serif;
+  color: #01ADB2;
+  font: 400 50px/1.3 "Playfair Display", serif;
   letter-spacing: 1.1px;
 }
 
@@ -690,26 +690,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "Alegreya", serif;
-  color: #024974;
+  font: normal 142px/1.1 "Playfair Display", serif;
+  color: #01ADB2;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Alegreya", serif;
+  font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Alegreya", serif;
+  font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Alegreya", serif;
-  color: #024974;
+  font: 700 30px/1 "Playfair Display", serif;
+  color: #01ADB2;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -753,7 +753,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Open Sans", sans-serif, sans-serif;
+  font: 700 15px/1 "Raleway", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -778,15 +778,15 @@ main ul li:before {
 .play i:before {
   margin: auto;
   padding-left: 5px;
-  color: #50B948;
+  color: #E5BA43;
 }
 
 .play:hover {
-  color: #024974;
+  color: #01ADB2;
 }
 
 .play:hover i {
-  background-color: #024974;
+  background-color: #01ADB2;
   color: #fff;
 }
 
@@ -794,7 +794,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #50B948;
+  background-color: #E5BA43;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -813,7 +813,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #409539;
+  background-color: #d7a61e;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -832,9 +832,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #50B948;
+  background-color: #E5BA43;
   min-width: 250px;
-  font: 700 13px/1.1 "Open Sans", sans-serif;
+  font: 700 13px/1.1 "Raleway", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -861,7 +861,7 @@ header #nav {
   justify-content: space-between;
   margin: auto;
   align-items: center;
-  padding: 2px;
+  padding: 20px 2px;
   position: relative;
 }
 header #nav a {
@@ -876,7 +876,7 @@ header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #50B948;
+  background-color: #E5BA43;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -887,15 +887,15 @@ header #nav a.btn {
   position: relative;
   border-radius: 40px;
   color: #fff;
-  font-size: 21px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #012B48;
+  background-color: #01ADB2;
   color: #fff;
 }
 header #nav a.btn i {
-  color: #50B948;
+  color: #E5BA43;
   position: absolute;
   left: 3px;
   top: 5px;
@@ -939,7 +939,7 @@ header #nav .phone {
   font-weight: 700;
 }
 header #nav .phone:hover {
-  color: #50B948;
+  color: #E5BA43;
 }
 header #nav .phone i {
   margin-top: 4px;
@@ -952,7 +952,7 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #50B948;
+  color: #E5BA43;
 }
 header #nav > * {
   display: flex;
@@ -997,7 +997,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   text-align: center;
 }
 header #nav #mobile-btns .phone {
-  background-color: #50B948;
+  background-color: #E5BA43;
   font-size: 20px;
   line-height: 1.3;
   color: #fff;
@@ -1011,13 +1011,13 @@ header #nav #mobile-btns .phone span {
 }
 
 .phone {
-  color: #50B948;
-  font: 700 30px/30px "Open Sans", sans-serif;
+  color: #E5BA43;
+  font: 700 30px/30px "Raleway", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #024974;
+  color: #01ADB2;
 }
 .phone span {
   display: block;
@@ -1059,10 +1059,10 @@ p.big {
 #banner {
   display: flex;
   flex-wrap: wrap;
-  background-color: #012B48;
+  background-color: #303534;
   max-height: 900px;
   overflow: hidden;
-  border-bottom: 10px solid #50B948;
+  border-bottom: 10px solid #644DA7;
 }
 #banner > * {
   flex: 0 1 50%;
@@ -1085,27 +1085,27 @@ p.big {
 }
 #banner article h1 {
   color: #fff;
-  font: 200 125px/1 "Alegreya", serif;
+  font: 200 125px/1 "Playfair Display", serif;
   text-transform: uppercase;
 }
 #banner article h1 span {
-  color: #50B948;
+  color: #E5BA43;
 }
 #banner article h2 {
   font-size: 41px;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 #banner article p {
   color: #fff;
   font-size: 30px;
   line-height: 35px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .bg-2 {
-  background-color: #024974;
+  background-color: #01ADB2;
 }
 
 .smile {
@@ -1113,11 +1113,11 @@ p.big {
 }
 .smile h1 {
   color: #fff;
-  font: 200 125px/1 "Alegreya", serif;
+  font: 200 125px/1 "Playfair Display", serif;
   text-transform: uppercase;
 }
 .smile h1 span {
-  color: #50B948;
+  color: #E5BA43;
 }
 .smile #main-form {
   padding: 80px 0;
@@ -1148,13 +1148,13 @@ p.big {
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: left;
   letter-spacing: -0.02em;
   line-height: 60px;
 }
 .smile .content .call article a {
-  color: #50B948;
+  color: #E5BA43;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1178,7 +1178,7 @@ p.big {
   color: #000;
 }
 .smile .content .call figure figcaption a:hover {
-  color: #50B948;
+  color: #644DA7;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1269,7 +1269,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #50B948;
+  color: #E5BA43;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1292,7 +1292,7 @@ p.big {
   margin-top: 70px;
   font-size: 36px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 45px;
 }
 
@@ -1336,7 +1336,7 @@ footer {
   background-color: #fff;
 }
 footer h2 {
-  font: 500 45px/1.2 "Open Sans", sans-serif !important;
+  font: 500 45px/1.2 "Raleway", sans-serif !important;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1344,7 +1344,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #024974;
+  background-color: #01ADB2;
   position: absolute;
   height: 5px;
   width: 85px;
@@ -1353,22 +1353,22 @@ footer h2:after {
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   color: #000;
   margin: 15px auto;
 }
 footer article .phy:hover {
-  color: #50B948;
+  color: #E5BA43;
 }
 footer article .phone {
   font-size: 41px;
   font-weight: 700;
-  color: #012B48;
+  color: #E5BA43;
 }
 footer article .phone:hover {
-  color: #50B948;
+  color: #01ADB2;
 }
 footer article form {
   padding: 0 !important;
@@ -1382,11 +1382,11 @@ footer .form .simple input, footer .form .simple textarea {
 }
 footer .form .simple .btn {
   width: 80% !important;
-  background-color: #012B48;
+  background-color: #E5BA43;
   color: #fff;
 }
 footer .form .simple .btn:hover {
-  background-color: #50B948;
+  background-color: #01ADB2;
 }
 footer .split {
   justify-content: center;
@@ -1408,7 +1408,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Open Sans", sans-serif;
+  font: 400 32px/1.2 "Raleway", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1417,7 +1417,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #50B948;
+  color: #E5BA43;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1458,13 +1458,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Alegreya", serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Open Sans", sans-serif;
+  font: 400 18px/1 "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1473,7 +1473,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1485,10 +1485,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #50B948;
+  color: #E5BA43;
 }
 figcaption:hover p {
-  color: #50B948;
+  color: #E5BA43;
 }
 
 .stamp {
@@ -1503,23 +1503,23 @@ figcaption:hover p {
   margin-top: 20px;
   padding: 30px 10px 50px;
   margin: auto;
-  font: 400 18px/1.4 "Open Sans", sans-serif;
+  font: 400 18px/1.4 "Raleway", sans-serif;
   color: #000;
 }
 .copy a, .copy p {
-  font: 400 18px/1.4 "Open Sans", sans-serif;
+  font: 400 18px/1.4 "Raleway", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #50B948;
+  color: #644DA7;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #012B48;
+  color: #E5BA43;
 }
 .copy span {
   margin: 0 2px;
@@ -1533,13 +1533,13 @@ figcaption:hover p {
   font-size: 16px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #50B948;
-  background-color: #50B948;
+  border: 1px solid #E5BA43;
+  background-color: #E5BA43;
   color: #fff;
   text-transform: uppercase;
 }
 .simple .btn:hover {
-  background-color: #024974;
+  background-color: #01ADB2;
   color: #fff;
 }
 .simple input, .simple select {
@@ -1561,7 +1561,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #50B948;
+  box-shadow: inset 0 -3px 0 #E5BA43;
 }
 
 hr {
@@ -1612,9 +1612,10 @@ hr {
 }
 
 #countdown #count span {
+  font-weight: 500;
   line-height: 1.5;
   margin: 0;
-  color: #50B948;
+  color: #E5BA43;
   padding-bottom: 10px;
   width: 100%;
   padding: 20px 0 30px;
@@ -1947,11 +1948,7 @@ hr {
     margin: 25px auto;
   }
   .smile .content .call figure figcaption {
-    font-size: 11px;
-    padding: 0;
-  }
-  .smile .content .call figure figcaption a {
-    padding-top: 5px;
+    font-size: 16px;
   }
 }
 @media (max-width: 590px) {
