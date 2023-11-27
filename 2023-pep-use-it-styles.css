@@ -601,7 +601,7 @@ star:after {
 
 #fixed-tabs a {
   font-size: 13px;
-  color: #000;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   padding: 14px 0;
@@ -609,17 +609,17 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #1DE9D6;
+  background-color: #967332;
 }
 
 #fixed-tabs .call {
-  background-color: #2D3C3B;
+  background-color: #00468D;
   color: #fff;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #1DE9D6;
+  background-color: #967332;
 }
 
 @media (min-width: 1031px) {
@@ -649,12 +649,12 @@ body {
   background: #F8F8F8;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Open Sans", sans-serif;
+  font: 400 18px/26px "Raleway", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Open Sans", sans-serif;
+  font: 400 18px/1.6 "Raleway", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -662,22 +662,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #2D3C3B;
+  color: #00468D;
 }
 
 a:hover {
-  color: #2D3C3B;
+  color: #00468D;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #2D3C3B;
-  font: 400 50px/1.3 "Arapey", serif;
+  color: #00468D;
+  font: 700 50px/1.3 "Antic Didone", serif;
   letter-spacing: 1.1px;
 }
 
@@ -687,26 +687,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "Arapey", serif;
-  color: #2D3C3B;
+  font: normal 142px/1.1 "Antic Didone", serif;
+  color: #00468D;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Arapey", serif;
+  font-family: "Antic Didone", serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Arapey", serif;
+  font-family: "Antic Didone", serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Arapey", serif;
-  color: #2D3C3B;
+  font: 700 30px/1 "Antic Didone", serif;
+  color: #00468D;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -750,7 +750,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Open Sans", sans-serif, sans-serif;
+  font: 700 15px/1 "Raleway", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -775,15 +775,15 @@ main ul li:before {
 .play i:before {
   margin: auto;
   padding-left: 5px;
-  color: #1DE9D6;
+  color: #967332;
 }
 
 .play:hover {
-  color: #2D3C3B;
+  color: #00468D;
 }
 
 .play:hover i {
-  background-color: #2D3C3B;
+  background-color: #00468D;
   color: #fff;
 }
 
@@ -791,7 +791,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #1DE9D6;
+  background-color: #967332;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -810,7 +810,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #13c0b0;
+  background-color: #705625;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -829,9 +829,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #1DE9D6;
+  background-color: #967332;
   min-width: 250px;
-  font: 700 13px/1.1 "Open Sans", sans-serif;
+  font: 700 13px/1.1 "Raleway", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -858,7 +858,7 @@ header #nav {
   justify-content: space-between;
   margin: auto;
   align-items: center;
-  padding: 20px 2px;
+  padding: 4px 2px;
   position: relative;
 }
 header #nav a {
@@ -867,13 +867,13 @@ header #nav a {
 }
 header #nav a i {
   font-size: 20px;
-  color: #000;
+  color: #fff;
 }
 header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #1DE9D6;
+  background-color: #967332;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -885,14 +885,14 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #2D3C3B;
+  background-color: #00468D;
   color: #fff;
 }
 header #nav a.btn i {
-  color: #1DE9D6;
+  color: #967332;
   position: absolute;
   left: 3px;
   top: 5px;
@@ -936,7 +936,7 @@ header #nav .phone {
   font-weight: 700;
 }
 header #nav .phone:hover {
-  color: #1DE9D6;
+  color: #967332;
 }
 header #nav .phone i {
   margin-top: 4px;
@@ -949,7 +949,7 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #1DE9D6;
+  color: #967332;
 }
 header #nav > * {
   display: flex;
@@ -986,6 +986,7 @@ header #nav #mobile-btns .phone, header #nav #mobile-btns .btn {
   justify-content: center;
   align-content: center;
   height: 70px;
+  margin: 0;
   color: #000;
 }
 header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
@@ -994,25 +995,27 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   text-align: center;
 }
 header #nav #mobile-btns .phone {
-  background-color: #1DE9D6;
+  background-color: #967332;
   font-size: 20px;
   line-height: 1.3;
+  color: #fff;
 }
 header #nav #mobile-btns .phone span {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
+  color: #fff;
   letter-spacing: 1px;
 }
 
 .phone {
-  color: #1DE9D6;
-  font: 700 30px/30px "Open Sans", sans-serif;
+  color: #967332;
+  font: 700 30px/30px "Raleway", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #2D3C3B;
+  color: #00468D;
 }
 .phone span {
   display: block;
@@ -1054,24 +1057,24 @@ p.big {
 #banner {
   display: flex;
   flex-wrap: wrap;
-  background-color: #2D3C3B;
+  background-color: #001F33;
   max-height: 900px;
   overflow: hidden;
-  border-bottom: 10px solid #1DE9D6;
+  border-bottom: 10px solid #967332;
 }
 #banner > * {
   flex: 0 1 50%;
   max-height: 900px;
 }
 #banner figure {
-  flex: 0 1 45%;
+  flex: 0 1 46%;
 }
 #banner figure img {
   width: 100%;
 }
 #banner article {
   padding: 50px;
-  flex: 0 1 55%;
+  flex: 0 1 54%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1080,27 +1083,28 @@ p.big {
 }
 #banner article h1 {
   color: #fff;
-  font: 200 125px/1 "Arapey", serif;
+  font: 700 125px/1 "Antic Didone", serif;
   text-transform: uppercase;
+  max-width: 900px;
 }
 #banner article h1 span {
-  color: #1DE9D6;
+  color: #967332;
 }
 #banner article h2 {
-  font-size: 41px;
+  font-size: 45px;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 #banner article p {
   color: #fff;
   font-size: 30px;
   line-height: 35px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .bg-2 {
-  background-color: #2D3C3B;
+  background-color: #00468D;
 }
 
 .smile {
@@ -1108,11 +1112,11 @@ p.big {
 }
 .smile h1 {
   color: #fff;
-  font: 200 125px/1 "Arapey", serif;
+  font: 200 125px/1 "Antic Didone", serif;
   text-transform: uppercase;
 }
 .smile h1 span {
-  color: #1DE9D6;
+  color: #967332;
 }
 .smile #main-form {
   padding: 80px 0;
@@ -1136,25 +1140,25 @@ p.big {
   background-color: #fff;
 }
 .smile .content .call article {
-  flex: 0 1 60%;
+  flex: 0 1 65%;
 }
 .smile .content .call article p {
   font-weight: 400;
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: left;
-  line-height: 60px;
+  line-height: 70px;
 }
 .smile .content .call article a {
-  color: #1DE9D6;
+  color: #967332;
 }
 .smile .content .call article a:hover {
   color: #000;
 }
 .smile .content .call figure {
-  flex: 0 0 40%;
+  flex: 0 0 35%;
   position: relative;
 }
 .smile .content .call figure figcaption {
@@ -1172,7 +1176,7 @@ p.big {
   color: #000;
 }
 .smile .content .call figure figcaption a:hover {
-  color: #1DE9D6;
+  color: #967332;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1263,7 +1267,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #1DE9D6;
+  color: #967332;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1286,7 +1290,7 @@ p.big {
   margin-top: 70px;
   font-size: 36px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 45px;
 }
 
@@ -1330,7 +1334,7 @@ footer {
   background-color: #fff;
 }
 footer h2 {
-  font: 500 45px/1.2 "Open Sans", sans-serif !important;
+  font: 500 45px/1.2 "Raleway", sans-serif !important;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1338,7 +1342,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #2D3C3B;
+  background-color: #00468D;
   position: absolute;
   height: 5px;
   width: 85px;
@@ -1347,22 +1351,22 @@ footer h2:after {
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 20px;
   color: #000;
   margin: 15px auto;
 }
 footer article .phy:hover {
-  color: #1DE9D6;
+  color: #967332;
 }
 footer article .phone {
   font-size: 41px;
   font-weight: 700;
-  color: #1DE9D6;
+  color: #967332;
 }
 footer article .phone:hover {
-  color: #2D3C3B;
+  color: #00468D;
 }
 footer article form {
   padding: 0 !important;
@@ -1376,11 +1380,11 @@ footer .form .simple input, footer .form .simple textarea {
 }
 footer .form .simple .btn {
   width: 80% !important;
-  background-color: #1DE9D6;
-  color: #000;
+  background-color: #967332;
+  color: #fff;
 }
 footer .form .simple .btn:hover {
-  background-color: #2D3C3B;
+  background-color: #00468D;
   color: #fff;
 }
 footer .split {
@@ -1403,7 +1407,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Open Sans", sans-serif;
+  font: 400 32px/1.2 "Raleway", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1412,7 +1416,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #1DE9D6;
+  color: #967332;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1453,13 +1457,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Arapey", serif;
+  font-family: "Antic Didone", serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Open Sans", sans-serif;
+  font: 400 18px/1 "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1468,7 +1472,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1480,10 +1484,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #1DE9D6;
+  color: #967332;
 }
 figcaption:hover p {
-  color: #1DE9D6;
+  color: #967332;
 }
 
 .stamp {
@@ -1498,23 +1502,22 @@ figcaption:hover p {
   margin-top: 20px;
   padding: 30px 10px 50px;
   margin: auto;
-  font: 400 18px/1.4 "Open Sans", sans-serif;
+  font: 400 18px/1.4 "Raleway", sans-serif;
   color: #000;
 }
 .copy a, .copy p {
-  font: 400 18px/1.4 "Open Sans", sans-serif;
-  color: #fff;
+  font: 400 18px/1.4 "Raleway", sans-serif;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #1DE9D6;
+  color: #967332;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #2D3C3B;
+  color: #001F33;
 }
 .copy span {
   margin: 0 2px;
@@ -1528,13 +1531,13 @@ figcaption:hover p {
   font-size: 20px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #1DE9D6;
-  background-color: #1DE9D6;
+  border: 1px solid #967332;
+  background-color: #967332;
   color: #fff;
   text-transform: uppercase;
 }
 .simple .btn:hover {
-  background-color: #2D3C3B;
+  background-color: #00468D;
   color: #fff;
 }
 .simple input, .simple select {
@@ -1556,7 +1559,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #1DE9D6;
+  box-shadow: inset 0 -3px 0 #967332;
 }
 
 hr {
@@ -1567,18 +1570,22 @@ hr {
 
 ::-webkit-input-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 ::-moz-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 :-moz-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 /* -- COUNTDOWN TIMER -- */
@@ -1610,7 +1617,7 @@ hr {
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
-  color: #1DE9D6;
+  color: #967332;
   padding-bottom: 10px;
   width: 100%;
   padding: 20px 0 30px;
@@ -1662,6 +1669,18 @@ hr {
     max-height: 800px;
   }
 }
+@media (max-width: 1460px) {
+  #banner article h1 {
+    font-size: 128px;
+  }
+  #banner article h2 {
+    font-size: 34px;
+    line-height: 1;
+  }
+  #banner article p {
+    font-size: 24px;
+  }
+}
 @media (max-width: 1300px) {
   #banner {
     background-position: 10%;
@@ -1680,12 +1699,41 @@ hr {
     display: none !important;
   }
 }
+@media (max-width: 1200px) {
+  #banner article, #banner figure {
+    flex: auto;
+    max-height: none;
+  }
+}
 @media (max-width: 1110px) {
+  .smile .form form {
+    max-width: 800px;
+    margin: auto;
+  }
+  .smile .form form > div {
+    flex: 100%;
+  }
   h1 {
     font-size: 40px;
   }
   #banner article {
     flex: 0 1 51%;
+  }
+  #banner {
+    max-height: none;
+  }
+  #banner article {
+    padding: 50px 20px;
+  }
+  #banner article h1 {
+    font-size: 74px;
+  }
+  #banner article p {
+    font-size: 28px;
+  }
+  #banner article, #banner figure {
+    flex: auto;
+    max-height: none;
   }
 }
 @media (min-width: 1000px) {
@@ -1708,22 +1756,6 @@ hr {
   }
   header #nav .phone {
     display: none;
-  }
-  #banner {
-    max-height: none;
-  }
-  #banner article {
-    padding: 50px 20px;
-  }
-  #banner article h1 {
-    font-size: 74px;
-  }
-  #banner article p {
-    font-size: 28px;
-  }
-  #banner article, #banner figure {
-    flex: auto;
-    max-height: none;
   }
   .smile #main-form {
     padding: 80px 20px 30px;

@@ -31,18 +31,18 @@
 }
 
 
-$primary: #1DE9D6;
-$secondary:#2D3C3B;
-$tertiary: #2D3C3B;
-$font: 'Open Sans', sans-serif;
-$font2: 'Arapey', serif;
+$primary: #967332;
+$secondary:#00468D;
+$tertiary: #001F33;
+$font: 'Raleway', sans-serif;
+$font2: 'Antic Didone', serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
 
 /* ------------- Fixed Tabs -------------- */
 #fixed-tabs{position:fixed;bottom:0;right:0;width:100%;text-align:center;line-height:1;z-index:110000;display:flex}
-#fixed-tabs a{font-size:13px;color:$text;font-weight:700;text-transform:uppercase;padding:14px 0;flex: 0 1 25%}
+#fixed-tabs a{font-size:13px;color:#fff;font-weight:700;text-transform:uppercase;padding:14px 0;flex: 0 1 25%}
 #fixed-tabs .map {background-color:$primary;}
 #fixed-tabs .call {background-color:$secondary;color: #fff;}
 #fixed-tabs .ra {flex: 0 1 50%; background-color: $primary;}
@@ -61,7 +61,7 @@ p{color: $text;font:400 18px/1.6 $font; letter-spacing: 0.36px;}
 a{display:inline-block;text-decoration:none;cursor:pointer;color:$secondary}
 a:hover{color:$secondary}
 h1,h2 h3,h4,h5,h6{font-family:$font;text-align:center}
-h1{margin:0;color:$secondary;font:400 50px/1.3 $font2;letter-spacing:1.1px;}
+h1{margin:0;color:$secondary;font:700 50px/1.3 $font2;letter-spacing:1.1px;}
 h1 small{font-size:30px;letter-spacing:.75px}
 h2{font:normal 142px/1.1 $font2;color:$secondary;margin:10px 0;
     &.big {font-family: $font2; font-weight: normal; font-size: 137px; letter-spacing: -0.04em; color: #000;}
@@ -98,9 +98,9 @@ main ul{list-style:none;padding:0;margin:10px auto;text-align:left;display:table
 }
 
 header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
-    #nav {display:flex;max-width:1300px;justify-content:space-between;margin:auto;align-items:center;padding:20px 2px;position:relative;
+    #nav {display:flex;max-width:1300px;justify-content:space-between;margin:auto;align-items:center;padding:4px 2px;position:relative;
         a {color: $text;text-align:left;
-            i {font-size: 20px; color: #000;
+            i {font-size: 20px; color: #fff;
             &:before {padding: 7px; width: 35px; height: 35px; background-color: $primary; border-radius: 50%; display: flex !important; justify-content: center; align-items: center;}
             }
             &.btn {padding: 10px 26px 10px 54px; position: relative;border-radius: 40px; color: #fff;font-size: 24px;font-family: $font;
@@ -150,13 +150,14 @@ header{position:relative;padding:5px 10px;z-index:100;background-color: #fff;
 				justify-content: center;
 				align-content: center;
                 height: 70px;
+                margin: 0;
                 color: #000;
 				span {
 					width: 100%;color: #000;text-align:center;
 				}
 			  }
-			.phone {background-color: $primary;font-size: 20px;line-height: 1.3;
-				span {text-transform: uppercase;font-size: 16px;font-weight: 700;letter-spacing: 1px;}
+			.phone {background-color: $primary;font-size: 20px;line-height: 1.3;color: #fff;
+				span {text-transform: uppercase;font-size: 16px;font-weight: 700;color: #fff;letter-spacing: 1px;}
 			}
 		}
     }
@@ -178,19 +179,19 @@ p {
 /*Use it or Lose it Page*/
 #banner {display: flex;flex-wrap: wrap;background-color: $tertiary;;max-height: 900px;overflow:hidden;border-bottom: 10px solid $primary;
     > * {flex: 0 1 50%;max-height: 900px;}
-    figure {flex: 0 1 45%;
+    figure {flex: 0 1 46%;
         img {width: 100%;}
     }
-    article {padding: 50px;flex: 0 1 55%;
+    article {padding: 50px;flex: 0 1 54%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content:center;
         align-self: center;
-        h1 {color: #fff; font: 200 125px/1 $font2;text-transform:uppercase;
+        h1 {color: #fff; font: 700 125px/1 $font2;text-transform:uppercase;max-width: 900px;
             span {color: $primary;}
         }
-        h2 {font-size: 41px; color: #fff;font-family: $font;font-weight:500}
+        h2 {font-size: 45px; color: #fff;font-family: $font;font-weight:500}
         p {color: #fff;font-size: 30px;
             line-height: 35px;font-family: $font;}
     }
@@ -206,13 +207,13 @@ p {
     article p { &.big{font-weight: normal; font-size: 26px; text-align: center; color: #1a1a1a;}}
     .content{ max-width: 1300px; margin: auto; background-color: #f0f0f0; 
         .call{padding: 40px 10px; display: flex; align-items: center; justify-content: space-around; background-color: #fff;
-            article {flex: 0 1 60%;
-                p{font-weight: 400; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left;line-height: 60px;}
+            article {flex: 0 1 65%;
+                p{font-weight: 400; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left;line-height: 70px;}
                 a{color: $primary;
                     &:hover {color: $text;}
                 }
             }
-            figure{flex: 0 0 40%; position: relative;
+            figure{flex: 0 0 35%; position: relative;
                 figcaption { background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 5px 15px 2px; font-weight: 600; font-size: 18px;letter-spacing: 1.5px;width: 100%;
                     a {color: #000;
                         &:hover {color: $primary;}
@@ -264,7 +265,7 @@ footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
         &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-        .phy {font-family: $font; font-weight: normal; font-size: 22px; color: $text;margin: 15px auto;
+        .phy {font-family: $font; font-weight: normal; font-size: 20px; color: $text;margin: 15px auto;
             &:hover {color: $primary;}
         }
         .phone {font-size: 41px;font-weight: 700;color: $primary;
@@ -275,7 +276,7 @@ footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
     .form {background: none !important;
         .simple {
             input, textarea {text-align:center;width: 80%;}
-            .btn {width: 80%!important;background-color: $primary;color: #000;
+            .btn {width: 80%!important;background-color: $primary;color: #fff;
                 &:hover {background-color: $secondary;color:#fff;}
             }
         }
@@ -315,7 +316,7 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 /* ------------- Copy -------------- */
 .copy {margin-top:20px;padding:30px 10px 50px;margin:auto; font:400 18px/1.4 $font; color:$text; 
-   a, p {font:400 18px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
+   a, p {font:400 18px/1.4 $font;letter-spacing: 0.6px;}
    a {color: $primary;}
     p {margin: 20px auto; max-width: 1090px;}
     a:hover{color:$tertiary;}
@@ -338,10 +339,10 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14,14,15,0.35);margin-top:30px;}
 
-::-webkit-input-placeholder{color:#fff}
-::-moz-placeholder{color:#fff}
-:-ms-input-placeholder{color:#fff}
-:-moz-placeholder{color:#fff}
+::-webkit-input-placeholder{color:#fff;opacity: 1;}
+::-moz-placeholder{color:#fff;opacity: 1;}
+:-ms-input-placeholder{color:#fff;opacity: 1;}
+:-moz-placeholder{color:#fff;opacity: 1;}
 
 
 /* -- COUNTDOWN TIMER -- */
@@ -362,6 +363,15 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
         > * {max-height: 800px;}
     }
 }
+@media (max-width: 1460px) {
+    #banner {
+        article {
+            h1 {font-size: 128px;}
+            h2 {font-size: 34px;line-height: 1;}
+            p {font-size: 24px;}
+        }
+    }
+}
 @media (max-width: 1300px) {
     #banner {background-position: 10%;}
     footer .split {flex-wrap: wrap;}
@@ -369,9 +379,24 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     footer .split article {flex-basis: 90%; align-items: center;}
     header .phy{display:none !important;}
 }
+@media (max-width: 1200px) {
+    #banner {
+        article, figure {flex: auto;max-height: none;}
+    }
+}
 @media (max-width: 1110px) {
+    .smile .form form {max-width: 800px; margin: auto;
+        > div {flex: 100%;}
+    }
     h1{font-size:40px}
     #banner article{flex:0 1 51%}
+    #banner {max-height: none;
+        article {padding: 50px 20px;
+            h1 {font-size: 74px;}
+            p {font-size: 28px;;}
+        }
+        article, figure {flex: auto;max-height: none;}
+    }
 }
 @media (min-width: 1000px) {
 	#mobile-btns {
@@ -384,13 +409,6 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .smile .top #banner-flex article, .smile .top #banner-flex figure {flex: auto;}
     .smile .top #banner-flex article p {text-align:center;}
     header #nav .phone {display:none;}
-    #banner {max-height: none;
-        article {padding: 50px 20px;
-            h1 {font-size: 74px;}
-            p {font-size: 28px;;}
-        }
-        article, figure {flex: auto;max-height: none;}
-    }
     .smile {
         #main-form {padding: 80px 20px 30px;
             form > div {
