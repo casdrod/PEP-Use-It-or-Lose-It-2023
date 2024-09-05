@@ -30,7 +30,7 @@ date = document.getElementById("copyDate");
 date.innerHTML = new Date().getFullYear();
 
 // Countdown Timer
-var countDownDate = new Date("January 1, 2024 0:0:0").getTime();
+var countDownDate = new Date("January 1, 2025 0:0:0").getTime();
 	var x = setInterval(function () {
 		var now = new Date().getTime();
 		var distance = countDownDate - now;

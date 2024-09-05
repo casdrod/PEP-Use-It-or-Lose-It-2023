@@ -31,11 +31,11 @@
 }
 
 
-$primary: #967332;
-$secondary:#00468D;
-$tertiary: #001F33;
-$font: 'Raleway', sans-serif;
-$font2: 'Antic Didone', serif;
+$primary: #7AC8CF;
+$secondary:#15668E;
+$tertiary: #003C5E;
+$font: "Montserrat", sans-serif;
+$font2: "Montserrat", sans-serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
@@ -188,11 +188,11 @@ p {
         align-items: center;
         justify-content:center;
         align-self: center;
-        h1 {color: #fff; font: 700 125px/1 $font2;text-transform:uppercase;max-width: 900px;
+        h1 {color: #fff; font: 600 125px/1 $font2;text-transform:uppercase;max-width: 900px;
             span {color: $primary;}
         }
         h2 {font-size: 45px; color: #fff;font-family: $font;font-weight:500}
-        p {color: #fff;font-size: 30px;
+        p {color: #fff;font-size: 26px;
             line-height: 35px;font-family: $font;}
     }
 }
@@ -208,7 +208,7 @@ p {
     .content{ max-width: 1300px; margin: auto; background-color: #f0f0f0; 
         .call{padding: 40px 10px; display: flex; align-items: center; justify-content: space-around; background-color: #fff;
             article {flex: 0 1 65%;
-                p{font-weight: 400; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left;line-height: 70px;}
+                p{font-weight: 400; font-size: 46px; padding: 10px; color: $text; font-family: $font; text-align: left;line-height: 1.2;}
                 a{color: $primary;
                     &:hover {color: $text;}
                 }
@@ -260,29 +260,24 @@ footer :is(input, textarea) {background-color: #f0f0f0 !important;}
 }
 
 /* ------------- Footer -------------- */
-footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
-    h2{font:500 45px/1.2 $font!important; color: $text;text-align:center;margin:0 auto 20px; position: relative;
-        &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
+footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #fff;
+    h2{font:bold 45px/1.2 $font2; color: $text;text-align:center;margin:0 auto 20px; position: relative;
+        &:after {content: ''; background-color: $secondary; position: absolute; height: 4px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-        .phy {font-family: $font; font-weight: normal; font-size: 20px; color: $text;margin: 15px auto;
-            &:hover {color: $primary;}
-        }
-        .phone {font-size: 41px;font-weight: 700;color: $primary;
-            &:hover {color: $secondary}
-        }
-        form{padding: 0 !important;}
+    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 20px auto;
+        &:hover {color: $primary;}
     }
+    .phone {font-size: 41px;font-family: $font2;}
+    form{padding: 0 !important;}}
     .form {background: none !important;
         .simple {
             input, textarea {text-align:center;width: 80%;}
-            .btn {width: 80%!important;background-color: $primary;color: #fff;
-                &:hover {background-color: $secondary;color:#fff;}
-            }
+            .btn {width: 80%!important}
         }
     }
     .split{justify-content:center;max-width:95vw;align-items:flex-start;margin:auto;margin-bottom:30px; flex-flow: nowrap;
-        article{margin-top:10px; flex: 0 1 30%;padding:20px 25px 20px; align-items: center;
+        article{margin-top:10px; flex: 0 1 30%;padding:20px 25px 20px; align-items: center;justify-content: flex-start;height: 500px;
             &:last-of-type {
                 h2 {margin-bottom: 40px;}
             }
@@ -294,7 +289,13 @@ footer{overflow:hidden; padding:40px 0 0;background-color:#fff;
                 strong {text-transform:uppercase; font-weight: 400;}
             
             }
-            
+            #hours {
+                span {display: flex;font-family: $font;font-size: 19px;width: 300px;
+                    margin: 10px auto;
+                    flex-wrap: wrap;
+                    justify-content: space-between;}
+            }
+            > span {margin-top: auto;width: 300px;text-align: left;}
         }
     }
     figure{margin-top:10px;flex:0 1 540px;color:#fff; padding: 20px 0;}

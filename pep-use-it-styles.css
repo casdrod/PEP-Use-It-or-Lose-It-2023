@@ -609,17 +609,17 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #967332;
+  background-color: #7AC8CF;
 }
 
 #fixed-tabs .call {
-  background-color: #00468D;
+  background-color: #15668E;
   color: #fff;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #967332;
+  background-color: #7AC8CF;
 }
 
 @media (min-width: 1031px) {
@@ -649,12 +649,12 @@ body {
   background: #F8F8F8;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Raleway", sans-serif;
+  font: 400 18px/26px "Montserrat", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Raleway", sans-serif;
+  font: 400 18px/1.6 "Montserrat", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -662,22 +662,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #00468D;
+  color: #15668E;
 }
 
 a:hover {
-  color: #00468D;
+  color: #15668E;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #00468D;
-  font: 700 50px/1.3 "Antic Didone", serif;
+  color: #15668E;
+  font: 700 50px/1.3 "Montserrat", sans-serif;
   letter-spacing: 1.1px;
 }
 
@@ -687,26 +687,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "Antic Didone", serif;
-  color: #00468D;
+  font: normal 142px/1.1 "Montserrat", sans-serif;
+  color: #15668E;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Antic Didone", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Antic Didone", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Antic Didone", serif;
-  color: #00468D;
+  font: 700 30px/1 "Montserrat", sans-serif;
+  color: #15668E;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -750,7 +750,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Raleway", sans-serif, sans-serif;
+  font: 700 15px/1 "Montserrat", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -775,15 +775,15 @@ main ul li:before {
 .play i:before {
   margin: auto;
   padding-left: 5px;
-  color: #967332;
+  color: #7AC8CF;
 }
 
 .play:hover {
-  color: #00468D;
+  color: #15668E;
 }
 
 .play:hover i {
-  background-color: #00468D;
+  background-color: #15668E;
   color: #fff;
 }
 
@@ -791,7 +791,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #967332;
+  background-color: #7AC8CF;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -810,7 +810,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #705625;
+  background-color: #55b9c1;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -829,9 +829,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #967332;
+  background-color: #7AC8CF;
   min-width: 250px;
-  font: 700 13px/1.1 "Raleway", sans-serif;
+  font: 700 13px/1.1 "Montserrat", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -873,7 +873,7 @@ header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #967332;
+  background-color: #7AC8CF;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -885,14 +885,14 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #00468D;
+  background-color: #15668E;
   color: #fff;
 }
 header #nav a.btn i {
-  color: #967332;
+  color: #7AC8CF;
   position: absolute;
   left: 3px;
   top: 5px;
@@ -936,7 +936,7 @@ header #nav .phone {
   font-weight: 700;
 }
 header #nav .phone:hover {
-  color: #967332;
+  color: #7AC8CF;
 }
 header #nav .phone i {
   margin-top: 4px;
@@ -949,7 +949,7 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #967332;
+  color: #7AC8CF;
 }
 header #nav > * {
   display: flex;
@@ -995,7 +995,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   text-align: center;
 }
 header #nav #mobile-btns .phone {
-  background-color: #967332;
+  background-color: #7AC8CF;
   font-size: 20px;
   line-height: 1.3;
   color: #fff;
@@ -1009,13 +1009,13 @@ header #nav #mobile-btns .phone span {
 }
 
 .phone {
-  color: #967332;
-  font: 700 30px/30px "Raleway", sans-serif;
+  color: #7AC8CF;
+  font: 700 30px/30px "Montserrat", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #00468D;
+  color: #15668E;
 }
 .phone span {
   display: block;
@@ -1057,10 +1057,10 @@ p.big {
 #banner {
   display: flex;
   flex-wrap: wrap;
-  background-color: #001F33;
+  background-color: #003C5E;
   max-height: 900px;
   overflow: hidden;
-  border-bottom: 10px solid #967332;
+  border-bottom: 10px solid #7AC8CF;
 }
 #banner > * {
   flex: 0 1 50%;
@@ -1083,28 +1083,28 @@ p.big {
 }
 #banner article h1 {
   color: #fff;
-  font: 700 125px/1 "Antic Didone", serif;
+  font: 600 125px/1 "Montserrat", sans-serif;
   text-transform: uppercase;
   max-width: 900px;
 }
 #banner article h1 span {
-  color: #967332;
+  color: #7AC8CF;
 }
 #banner article h2 {
   font-size: 45px;
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 #banner article p {
   color: #fff;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 35px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg-2 {
-  background-color: #00468D;
+  background-color: #15668E;
 }
 
 .smile {
@@ -1112,11 +1112,11 @@ p.big {
 }
 .smile h1 {
   color: #fff;
-  font: 200 125px/1 "Antic Didone", serif;
+  font: 200 125px/1 "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 .smile h1 span {
-  color: #967332;
+  color: #7AC8CF;
 }
 .smile #main-form {
   padding: 80px 0;
@@ -1144,15 +1144,15 @@ p.big {
 }
 .smile .content .call article p {
   font-weight: 400;
-  font-size: 50px;
+  font-size: 46px;
   padding: 10px;
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: left;
-  line-height: 70px;
+  line-height: 1.2;
 }
 .smile .content .call article a {
-  color: #967332;
+  color: #7AC8CF;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1176,7 +1176,7 @@ p.big {
   color: #000;
 }
 .smile .content .call figure figcaption a:hover {
-  color: #967332;
+  color: #7AC8CF;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1267,7 +1267,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #967332;
+  color: #7AC8CF;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1290,7 +1290,7 @@ p.big {
   margin-top: 70px;
   font-size: 36px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 45px;
 }
 
@@ -1331,10 +1331,11 @@ footer :is(input, textarea) {
 footer {
   overflow: hidden;
   padding: 40px 0 0;
-  background-color: #fff;
+  background-color: #000;
+  background: #fff;
 }
 footer h2 {
-  font: 500 45px/1.2 "Raleway", sans-serif !important;
+  font: bold 45px/1.2 "Montserrat", sans-serif;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1342,31 +1343,27 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #00468D;
+  background-color: #15668E;
   position: absolute;
-  height: 5px;
+  height: 4px;
   width: 85px;
   bottom: -20px;
   right: 50%;
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   color: #000;
-  margin: 15px auto;
+  margin: 20px auto;
 }
 footer article .phy:hover {
-  color: #967332;
+  color: #7AC8CF;
 }
 footer article .phone {
   font-size: 41px;
-  font-weight: 700;
-  color: #967332;
-}
-footer article .phone:hover {
-  color: #00468D;
+  font-family: "Montserrat", sans-serif;
 }
 footer article form {
   padding: 0 !important;
@@ -1380,12 +1377,6 @@ footer .form .simple input, footer .form .simple textarea {
 }
 footer .form .simple .btn {
   width: 80% !important;
-  background-color: #967332;
-  color: #fff;
-}
-footer .form .simple .btn:hover {
-  background-color: #00468D;
-  color: #fff;
 }
 footer .split {
   justify-content: center;
@@ -1400,6 +1391,8 @@ footer .split article {
   flex: 0 1 30%;
   padding: 20px 25px 20px;
   align-items: center;
+  justify-content: flex-start;
+  height: 500px;
 }
 footer .split article:last-of-type h2 {
   margin-bottom: 40px;
@@ -1407,7 +1400,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Raleway", sans-serif;
+  font: 400 32px/1.2 "Montserrat", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1416,7 +1409,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #967332;
+  color: #7AC8CF;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1429,6 +1422,20 @@ footer .split article p:last-of-type {
 footer .split article p strong {
   text-transform: uppercase;
   font-weight: 400;
+}
+footer .split article #hours span {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  width: 300px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .split article > span {
+  margin-top: auto;
+  width: 300px;
+  text-align: left;
 }
 footer figure {
   margin-top: 10px;
@@ -1457,13 +1464,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Antic Didone", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Raleway", sans-serif;
+  font: 400 18px/1 "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1472,7 +1479,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1484,10 +1491,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #967332;
+  color: #7AC8CF;
 }
 figcaption:hover p {
-  color: #967332;
+  color: #7AC8CF;
 }
 
 .stamp {
@@ -1502,22 +1509,22 @@ figcaption:hover p {
   margin-top: 20px;
   padding: 30px 10px 50px;
   margin: auto;
-  font: 400 18px/1.4 "Raleway", sans-serif;
+  font: 400 18px/1.4 "Montserrat", sans-serif;
   color: #000;
 }
 .copy a, .copy p {
-  font: 400 18px/1.4 "Raleway", sans-serif;
+  font: 400 18px/1.4 "Montserrat", sans-serif;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #967332;
+  color: #7AC8CF;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #001F33;
+  color: #003C5E;
 }
 .copy span {
   margin: 0 2px;
@@ -1531,13 +1538,13 @@ figcaption:hover p {
   font-size: 20px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #967332;
-  background-color: #967332;
+  border: 1px solid #7AC8CF;
+  background-color: #7AC8CF;
   color: #fff;
   text-transform: uppercase;
 }
 .simple .btn:hover {
-  background-color: #00468D;
+  background-color: #15668E;
   color: #fff;
 }
 .simple input, .simple select {
@@ -1559,7 +1566,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #967332;
+  box-shadow: inset 0 -3px 0 #7AC8CF;
 }
 
 hr {
@@ -1617,7 +1624,7 @@ hr {
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
-  color: #967332;
+  color: #7AC8CF;
   padding-bottom: 10px;
   width: 100%;
   padding: 20px 0 30px;
@@ -1715,9 +1722,6 @@ hr {
   }
   h1 {
     font-size: 40px;
-  }
-  #banner article {
-    flex: 0 1 51%;
   }
   #banner {
     max-height: none;
@@ -2098,4 +2102,4 @@ hr {
   .double-list .flex-ed .option-list .list-body .list-bkg {
     display: none;
   }
-}/*# sourceMappingURL=2023-pep-use-it-styles.css.map */
+}/*# sourceMappingURL=pep-use-it-styles.css.map */
