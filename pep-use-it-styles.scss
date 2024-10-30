@@ -189,7 +189,7 @@ p {
         justify-content:center;
         align-self: center;
         h1 {color: #fff; font: 600 125px/1 $font2;text-transform:uppercase;max-width: 900px;
-            span {color: $primary;}
+            span {color: $primary;display:block;}
         }
         h2 {font-size: 45px; color: #fff;font-family: $font;font-weight:500}
         p {color: #fff;font-size: 26px;
@@ -392,8 +392,8 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     h1{font-size:40px}
     #banner {max-height: none;
         article {padding: 50px 20px;
-            h1 {font-size: 74px;}
-            p {font-size: 28px;;}
+            h1 {font-size: 70px;}
+            p {font-size: 28px;}
         }
         article, figure {flex: auto;max-height: none;}
     }
@@ -408,7 +408,9 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .smile .top #banner-flex {margin-top: 30px;}
     .smile .top #banner-flex article, .smile .top #banner-flex figure {flex: auto;}
     .smile .top #banner-flex article p {text-align:center;}
-    header #nav .phone {display:none;}
+    header #nav {flex-wrap:wrap;
+        .phone {display:none;}
+    }
     .smile {
         #main-form {padding: 80px 20px 30px;
             form > div {

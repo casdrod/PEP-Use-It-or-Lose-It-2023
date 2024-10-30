@@ -1730,7 +1730,7 @@ hr {
     padding: 50px 20px;
   }
   #banner article h1 {
-    font-size: 74px;
+    font-size: 70px;
   }
   #banner article p {
     font-size: 28px;
@@ -1757,6 +1757,9 @@ hr {
   }
   .smile .top #banner-flex article p {
     text-align: center;
+  }
+  header #nav {
+    flex-wrap: wrap;
   }
   header #nav .phone {
     display: none;
