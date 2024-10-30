@@ -324,7 +324,7 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
     p {margin: 20px auto; max-width: 1090px;}
     a:hover{color:$tertiary;}
     span {margin: 0 2px;
-        &:last-of-type {margin: 0 10px;}
+        &:not(:first-of-type) {margin: 0 10px;}
     }
 }
 
@@ -394,8 +394,8 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     }
     h1{font-size:40px}
     #banner {max-height: none;
-        article {padding: 50px 20px;
-            h1 {font-size: 70px;}
+        article {padding: 50px 10px;
+            h1 {font-size: 68px;}
             p {font-size: 28px;}
         }
         article, figure {flex: auto;max-height: none;}
@@ -473,6 +473,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     }
 }
 @media (max-width: 740px) {
+    .smile .use-it-very-bottom-text .big br {display: none;}
     footer h2:first-of-type {margin-bottom: 40px;}
     #nav .header-buttons{margin: 0; padding: 3px 5px;}
     #nav {padding-bottom: 0; flex-wrap: wrap; align-items: center;}
@@ -510,7 +511,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     h2{margin-top:20px;font-size:50px;}
     .factors h2 {font-size: 42px;}
     #services-custom{padding:0}
-    .smile .content .call article p {font-size: 36px;}
+    .smile .content .call article p {font-size: 30px;}
     .upper-form form{flex-direction:column}
     main ul li,.services ul li{text-align:center}
     .services ul{max-width:270px;margin:0 auto}
@@ -531,6 +532,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 }
 
 @media (max-width: 430px) {
+    #banner article h1 {font-size: 62px;}
     .split article .btn{margin-bottom:20px;min-width:auto}
     #team figure{display:table}
     #services h3{margin-top:10px}
@@ -550,7 +552,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .use-it-top-image div figcaption span {padding: 10px 20px;}
     .double-list .flex-ed .option-list .list-body .list-bkg {display: none;}
     header #nav #mobile-btns .phone {font-size: 18px;}
-    .smile .content .call article p {font-size: 30px;}
+    .smile .content .call article p {font-size: 28px;}
 }
 
 /* -- for third party form -- */
